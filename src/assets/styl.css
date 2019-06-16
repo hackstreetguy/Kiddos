@@ -1,0 +1,20 @@
+.list {
+  height: 1000px;
+  background-color: red;
+  color: blue;
+  margin-left: 3%;
+  margin-right: 3%;
+  column-span: initial;
+  margin-bottom: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Todoitem {
+  background-color: skyblue;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  display: inline-flexbox;
+}

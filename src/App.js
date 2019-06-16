@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./App.css";
+import MyInfo from "./assets/MyInfo";
+import Header from "./assets/Header";
+import Titem from "./assets/Todo.js";
 
 function App() {
+  //   const date = new Date();
+  //   const hours = date.getHours();
+  //   var timeofDay = "Mudit";
+
+  // if (hours < 12) {
+  //   timeofDay = "morning";
+  // } else if (hours > 12 && hours < 17) {
+  //   timeofDay = "afternoon";
+  // } else timeofDay = "night";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Project Chahiye CV me, Paisa chahiye Jeb me</h1>
+      <Titem />
+      <Titem />
+      <Titem />
+      <Titem />
     </div>
   );
 }
