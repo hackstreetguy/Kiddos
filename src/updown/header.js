@@ -1,14 +1,17 @@
 import React from "react"
-import '../css/open-iconic-bootstrap.min.css'
-import '../css/animate.css'
-//import '../css/owl.carousel.min.css'
-import '../css/owl.theme.default.min.css'
-import '../css/magnific-popup.css'
-import '../css/aos.css'
-import '../css/icomoon.css'
+// import "../css/open-iconic-bootstrap.min.css"
+// import "../css/animate.css"
+// import "../css/owl.carousel.min.css"
+// import '../css/owl.theme.default.min.css'
+// import '../css/magnific-popup.css'
+// import '../css/aos.css'
+// import '../css/icomoon.css'
 // import './..css/flaticon.css'
-//import './..css/ionicons.min.css'
-import '../css/style.css'
+// import './..css/ionicons.min.css'
+// import "../css/style.css"
+
+
+
 function Header() {
     return (
         <div>
@@ -62,21 +65,21 @@ function Header() {
                                     About
             </a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a href="teacher.html" className="nav-link">
                                     Teacher
             </a>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <a href="courses.html" className="nav-link">
                                     Courses
             </a>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <a href="pricing.html" className="nav-link">
                                     Pricing
             </a>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <a href="blog.html" className="nav-link">
                                     Blog
