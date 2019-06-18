@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 // import "../css/open-iconic-bootstrap.min.css"
 // import "../css/animate.css"
 // import "../css/owl.carousel.min.css"
@@ -9,8 +9,9 @@ import React from "react"
 // import './..css/flaticon.css'
 // import './..css/ionicons.min.css'
 // import "../css/style.css"
+import { Link } from "../react-router-dom";
 
-
+import Contact from "../Contact"
 
 function Header() {
     return (
@@ -70,32 +71,30 @@ function Header() {
                                     Teacher
             </a>
                             </li> */}
-                            {/* <li className="nav-item">
-                                <a href="courses.html" className="nav-link">
+                            <li className="nav-item">
+                                <a href="Contact.js" className="nav-link">
                                     Courses
             </a>
-                            </li> */}
-                            {/* <li className="nav-item">
+                            </li>
+                            <li className="nav-item">
                                 <a href="pricing.html" className="nav-link">
-                                    Pricing
+                                    Gallery
             </a>
-                            </li> */}
+                            </li>
                             <li className="nav-item">
                                 <a href="blog.html" className="nav-link">
                                     Blog
             </a>
                             </li>
                             <li className="nav-item">
-                                <a href="contact.html" className="nav-link">
-                                    Contact
-            </a>
+                                <Link to="./../src/Contact.js">Contact</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </div>
+        </div >
     )
 }
 
-export default Header
+export default Header;

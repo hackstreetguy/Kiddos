@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "./updown/header"
-import Footer from "./updown/footer"
+import Header from "./updown/Header"
+import Footer from "./updown/Footer"
 function App() {
 	return (
 		<div>
@@ -1259,7 +1259,7 @@ function App() {
 				</svg>
 			</div>
 			<Footer />
-		</div>
+		</div >
 
 	)
 }
