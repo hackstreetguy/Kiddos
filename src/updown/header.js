@@ -9,7 +9,8 @@ import React from "react";
 // import './..css/flaticon.css'
 // import './..css/ionicons.min.css'
 // import "../css/style.css"
-import { Link } from "../../node_modules/react-dom";
+import { Link } from "react-dom";
+//import { StyleSheet } from "react-native";
 
 import Contact from "../Contact"
 
