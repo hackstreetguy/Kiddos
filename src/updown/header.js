@@ -9,7 +9,7 @@ import React from "react";
 // import './..css/flaticon.css'
 // import './..css/ionicons.min.css'
 // import "../css/style.css"
-import { Link } from "../react-router-dom";
+import { Link } from "../../node_modules/react-dom";
 
 import Contact from "../Contact"
 
