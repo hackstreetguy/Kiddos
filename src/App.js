@@ -1,6 +1,6 @@
 import React from "react"
-import Header from "./updown/Header"
-import Footer from "./updown/Footer"
+import Header from "./updown/header"
+import Footer from "./updown/footer"
 function App() {
 	return (
 		<div>
