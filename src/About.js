@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from "../src/updown/Header"
-import Footer from "../src/updown/Footer"
+import Header from "../src/updown/header"
+import Footer from './updown/footer';
 
 
 function About() {
     return (
         <div>
-            <Header />
             <title>Kiddos - Free Bootstrap 4 Template by Colorlib</title>
             <meta charSet="utf-8" />
             <meta
@@ -31,6 +30,7 @@ function About() {
             <link rel="stylesheet" href="css/flaticon.css" />
             <link rel="stylesheet" href="css/icomoon.css" />
             <link rel="stylesheet" href="css/style.css" />
+            <Header />
             <section
                 className="hero-wrap hero-wrap-2"
                 style={{ backgroundImage: 'url("images/bg_2.jpg")' }}
@@ -346,7 +346,7 @@ function About() {
                                 <span className="subheading">Request A Quote</span>
                                 <h2 className="mb-4">Request A Quote</h2>
                                 <p>
-                                    Far far away, behind the word mountains, far from the
+                                    Far faraway, behind the word mountains, far from the
                                     countries Vokalia and Consonantia, there live the blind
                                     texts.
             </p>
