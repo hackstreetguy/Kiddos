@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "./updown/header"
 import Footer from "./updown/footer"
+import "./css/bootstrap.min.css"
 function App() {
 	return (
 		<div>
