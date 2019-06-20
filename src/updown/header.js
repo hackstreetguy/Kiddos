@@ -1,5 +1,5 @@
 import React from "react";
-// import "../css/open-iconic-bootstrap.min.css"
+// import "../css/bootstrap.min.css"
 // import "../css/animate.css"
 // import "../css/owl.carousel.min.css"
 // import '../css/owl.theme.default.min.css'
@@ -10,7 +10,6 @@ import React from "react";
 // import './..css/ionicons.min.css'
 // import "../css/style.css"
 import { Link } from "react-dom";
-//import { StyleSheet } from "react-native";
 
 import Contact from "../Contact"
 
@@ -88,7 +87,7 @@ function Header() {
             </a>
                             </li>
                             <li className="nav-item">
-                                <Link to="./../src/Contact.js">Contact</Link>
+                                <a href="#Contact">Contact</a>
                             </li>
                         </ul>
                     </div>
